@@ -1,0 +1,8 @@
+prefix=/home/helinuaa/catkin_ws/install
+
+Name: demo
+Description: Description of demo
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
