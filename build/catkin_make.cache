@@ -1,2 +1,2 @@
-beginner:demo
+beginner:demo:mastering_ros_robot_description_pkg:pkg_test:robot_description_pkg
 -DCATKIN_DEVEL_PREFIX=/home/helinuaa/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/helinuaa/catkin_ws/install -G Unix Makefiles

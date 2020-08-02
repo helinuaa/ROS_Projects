@@ -41,6 +41,22 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo/action" TYPE FILE FILES "/home/helinuaa/catkin_ws/src/demo/action/demo_action.action")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo/msg" TYPE FILE FILES
+    "/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionAction.msg"
+    "/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionGoal.msg"
+    "/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionResult.msg"
+    "/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionFeedback.msg"
+    "/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionGoal.msg"
+    "/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionResult.msg"
+    "/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionFeedback.msg"
+    )
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo/cmake" TYPE FILE FILES "/home/helinuaa/catkin_ws/build/demo/catkin_generated/installspace/demo-msg-paths.cmake")
 endif()
 

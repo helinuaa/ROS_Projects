@@ -53,36 +53,119 @@ CMAKE_BINARY_DIR = /home/helinuaa/catkin_ws/build
 # Include the progress variables for this target.
 include demo/CMakeFiles/demo_generate_messages_py.dir/progress.make
 
+demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionFeedback.py
 demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_msg.py
+demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionGoal.py
+demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py
+demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py
+demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py
+demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionResult.py
+demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py
 demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/_demo_srv.py
 demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py
 demo/CMakeFiles/demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py
 
 
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionFeedback.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionFeedback.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG demo/demo_actionFeedback"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionFeedback.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
+
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_msg.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_msg.py: /home/helinuaa/catkin_ws/src/demo/msg/demo_msg.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG demo/demo_msg"
-	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/src/demo/msg/demo_msg.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG demo/demo_msg"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/src/demo/msg/demo_msg.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
+
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionGoal.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionGoal.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG demo/demo_actionGoal"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionGoal.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
+
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionAction.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionFeedback.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionFeedback.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionResult.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionGoal.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionGoal.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG demo/demo_actionAction"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionAction.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
+
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionGoal.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionGoal.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG demo/demo_actionActionGoal"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionGoal.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
+
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionResult.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionResult.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG demo/demo_actionActionResult"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionResult.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
+
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionResult.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionResult.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG demo/demo_actionResult"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionResult.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
+
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionFeedback.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py: /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionFeedback.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG demo/demo_actionActionFeedback"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionFeedback.msg -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg
 
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/_demo_srv.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/_demo_srv.py: /home/helinuaa/catkin_ws/src/demo/srv/demo_srv.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV demo/demo_srv"
-	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/helinuaa/catkin_ws/src/demo/srv/demo_srv.srv -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV demo/demo_srv"
+	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/helinuaa/catkin_ws/src/demo/srv/demo_srv.srv -Idemo:/home/helinuaa/catkin_ws/src/demo/msg -Idemo:/home/helinuaa/catkin_ws/devel/share/demo/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p demo -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv
 
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionFeedback.py
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_msg.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionGoal.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionResult.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/_demo_srv.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python msg __init__.py for demo"
 	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg --initpy
 
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionFeedback.py
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_msg.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionGoal.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionResult.py
+/home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py
 /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/_demo_srv.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/helinuaa/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python srv __init__.py for demo"
 	cd /home/helinuaa/catkin_ws/build/demo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv --initpy
 
 demo_generate_messages_py: demo/CMakeFiles/demo_generate_messages_py
+demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionFeedback.py
 demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_msg.py
+demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionGoal.py
+demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionAction.py
+demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionGoal.py
+demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionResult.py
+demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionResult.py
+demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/_demo_actionActionFeedback.py
 demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/_demo_srv.py
 demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/msg/__init__.py
 demo_generate_messages_py: /home/helinuaa/catkin_ws/devel/lib/python2.7/dist-packages/demo/srv/__init__.py

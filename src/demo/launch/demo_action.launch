@@ -1,0 +1,4 @@
+<launch>
+ <node name = "demo_action_server" pkg = "demo" type = "demo_action_server" output = "screen"/>
+ <node name = "demo_action_client" pkg = "demo" type = "demo_action_client" output = "screen" args = "50 100"/>
+</launch>

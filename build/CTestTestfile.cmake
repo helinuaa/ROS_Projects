@@ -7,3 +7,6 @@
 subdirs(gtest)
 subdirs(beginner)
 subdirs(demo)
+subdirs(mastering_ros_robot_description_pkg)
+subdirs(pkg_test)
+subdirs(robot_description_pkg)

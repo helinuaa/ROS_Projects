@@ -128,6 +128,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/helinuaa/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/helinuaa/catkin_ws/build/beginner/cmake_install.cmake")
   include("/home/helinuaa/catkin_ws/build/demo/cmake_install.cmake")
+  include("/home/helinuaa/catkin_ws/build/mastering_ros_robot_description_pkg/cmake_install.cmake")
+  include("/home/helinuaa/catkin_ws/build/pkg_test/cmake_install.cmake")
+  include("/home/helinuaa/catkin_ws/build/robot_description_pkg/cmake_install.cmake")
 
 endif()
 

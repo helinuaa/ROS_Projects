@@ -1,0 +1,8 @@
+prefix=/home/helinuaa/catkin_ws/devel
+
+Name: mastering_ros_demo_pkg
+Description: Description of mastering_ros_demo_pkg
+Version: 0.0.2
+Cflags: -I/home/helinuaa/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs actionlib actionlib_msgs message_runtime

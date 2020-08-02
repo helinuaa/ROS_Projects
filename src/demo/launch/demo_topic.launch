@@ -1,0 +1,5 @@
+<launch>
+ <node name = "demo_publisher" pkg = "demo" type = "demo_publisher" output = "screen"/>
+ <node name = "demo_listenner" pkg = "demo" type = "demo_listenner" output = "screen"/>
+
+</launch>

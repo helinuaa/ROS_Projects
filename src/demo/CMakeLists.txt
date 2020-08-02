@@ -11,12 +11,13 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib
   actionlib_msgs
   roscpp
+  rospy
   std_msgs
   message_generation
 )
 
 ## System dependencies are found with CMake's conventions
-# find_package(Boost REQUIRED COMPONENTS system)
+ find_package(Boost REQUIRED COMPONENTS system)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -62,11 +63,11 @@ find_package(catkin REQUIRED COMPONENTS
  )
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
-#   Action2.action
-# )
+ add_action_files(
+   FILES
+   demo_action.action
+
+ )
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
@@ -107,9 +108,8 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES demo
-#  CATKIN_DEPENDS actionlib actionlib_msgs roscpp std_msgs
+  CATKIN_DEPENDS actionlib actionlib_msgs roscpp std_msgs
 #  DEPENDS system_lib
-   CATKIN_DEPENDS
    message_runtime
 )
 
@@ -145,6 +145,9 @@ add_executable(demo_listenner src/demo_listenner.cpp)
 add_executable(demo_server src/demo_server.cpp)
 add_executable(demo_client src/demo_client.cpp)
 
+add_executable(demo_action_server src/demo_action_server.cpp)
+add_executable(demo_action_client src/demo_action_client.cpp)
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -154,8 +157,14 @@ add_executable(demo_client src/demo_client.cpp)
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(demo_publisher demo_generate_messages_cpp)
+add_dependencies(demo_listenner demo_generate_messages_cpp)
 
-#add_dependencies(demo_msg ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(demo_server demo_generate_messages_cpp)
+add_dependencies(demo_client demo_generate_messages_cpp)
+
+add_dependencies(demo_action_server demo_generate_messages_cpp)
+add_dependencies(demo_action_client demo_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node
@@ -166,6 +175,9 @@ target_link_libraries(demo_publisher ${catkin_LIBRARIES})
 target_link_libraries(demo_listenner ${catkin_LIBRARIES})
 target_link_libraries(demo_server ${catkin_LIBRARIES})
 target_link_libraries(demo_client ${catkin_LIBRARIES})
+
+target_link_libraries(demo_action_server ${catkin_LIBRARIES})
+target_link_libraries(demo_action_client ${catkin_LIBRARIES})
 
 #############
 ## Install ##

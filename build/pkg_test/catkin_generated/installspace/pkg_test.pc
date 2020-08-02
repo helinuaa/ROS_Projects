@@ -1,0 +1,8 @@
+prefix=/home/helinuaa/catkin_ws/install
+
+Name: pkg_test
+Description: Description of pkg_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

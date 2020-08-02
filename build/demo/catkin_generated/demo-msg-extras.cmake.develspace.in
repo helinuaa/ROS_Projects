@@ -1,2 +1,2 @@
-set(demo_MESSAGE_FILES "/home/helinuaa/catkin_ws/src/demo/msg/demo_msg.msg")
+set(demo_MESSAGE_FILES "/home/helinuaa/catkin_ws/src/demo/msg/demo_msg.msg;/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionAction.msg;/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionGoal.msg;/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionResult.msg;/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionActionFeedback.msg;/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionGoal.msg;/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionResult.msg;/home/helinuaa/catkin_ws/devel/share/demo/msg/demo_actionFeedback.msg")
 set(demo_SERVICE_FILES "/home/helinuaa/catkin_ws/src/demo/srv/demo_srv.srv")
