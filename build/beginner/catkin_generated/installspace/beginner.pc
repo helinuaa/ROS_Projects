@@ -1,8 +1,0 @@
-prefix=/home/helinuaa/catkin_ws/install
-
-Name: beginner
-Description: Description of beginner
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
