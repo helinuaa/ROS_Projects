@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   roscpp
   rviz
-  tfr
+  tf
   urdf
   xacro
 )
