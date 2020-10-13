@@ -1,0 +1,11 @@
+<launch>
+  <include file="$(find control_odom)/launch/agv_control_luyi.launch"/>
+  <include file="$(find sick_tim)/launch/sick_tim551_2050001.launch"/>
+  <!--include file="$(find path_tracking)/launch/agv_navigation.launch"/-->
+  <!--node pkg="turtlesim" type="turtle_teleop_key" name="teleop_key"/-->
+  <!--remap from="/turtle1/cmd_vel"  to="/cmd_vel"/-->
+  <!--node pkg="cartographer_ros" type="demo_backpack_2d.launch" name="cartographer"/-->
+  <!--node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster" args="0 0 0 0 0 0  map odom 100" /-->
+</launch>
+
+ 

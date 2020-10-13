@@ -1,0 +1,14 @@
+<launch>
+    <!--node pkg="ros_agv_control" type="sick_magnetic" name="sick_magnetic_node" output="screen" /-->
+    <node pkg="control_odom" type="agv_control_node" name="agv_control_node" output="log" />
+    <node pkg="joy" type="joy_node" name="joy_node" output="screen"/>
+    <node pkg="control_odom" type="odom_publisher" name="odom_publisher_node" output="log"/>
+
+    <!--node pkg="control_odom" type="imu_publisher" name="imu_publisher_node" output="screen" /-->
+    <!--<node pkg="control_odom" type="cmd_publisher" name="cmd_publisher_node" output="screen" />-->
+
+    <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0.08 0.0 0.500 0 0.0 0.0  base_link laser_mount_link 100"/>
+
+</launch>
+
+
